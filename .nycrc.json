@@ -1,0 +1,22 @@
+{
+    "check-coverage": true,
+    "lines": 70,
+    "statements": 70,
+    "branches": 70,
+    "functions": 70,
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+        "src/index.ts",
+        "src/app.ts",
+        "src/persistence-layer",
+        "src/domain-layer",
+        "src/data"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "all": true
+  }
